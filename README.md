@@ -2,8 +2,8 @@
 
 An end-to-end machine learning project: 5 classification models trained on real company financial data, evaluated with 6 metrics, and demonstrated in an interactive Streamlit web app.
 
-**Live app:** `PASTE-YOUR-STREAMLIT-APP-LINK-HERE`
-**GitHub repository:** `PASTE-YOUR-GITHUB-REPO-LINK-HERE`
+**Live app:** `https://bankruptcy-prediction-taiwan.streamlit.app`
+**GitHub repository:** `https://github.com/madulika-prabu/bankruptcy-prediction`
 
 ---
 
