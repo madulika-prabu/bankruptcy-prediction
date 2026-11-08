@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+html, body, [class*="css"], .stApp { font-family: 'Inter', sans-serif; }
+.stApp { background: radial-gradient(1200px 600px at 10% -10%, #1B1457 0%, transparent 60%),
+         radial-gradient(900px 500px at 100% 0%, #0B3B4A 0%, transparent 55%), #0A0F1F; }
+#MainMenu, footer { visibility: hidden; }
+header[data-testid="stHeader"] { background: transparent; }
+.block-container { padding-top: 2rem; max-width: 1250px; }
+section[data-testid="stSidebar"] { background: #0D1430; border-right: 1px solid #1E2748; }
+.hero { padding: 34px 38px; border-radius: 22px; margin-bottom: 22px;
+        background: linear-gradient(135deg, rgba(139,92,246,.28), rgba(34,211,238,.14));
+        border: 1px solid rgba(139,92,246,.35); box-shadow: 0 20px 60px rgba(0,0,0,.35); }
+.hero h1 { margin: 0; font-size: 2.5rem; font-weight: 800; letter-spacing: -.02em;
+           background: linear-gradient(90deg,#fff,#C4B5FD 55%,#67E8F9); -webkit-background-clip: text;
+           -webkit-text-fill-color: transparent; }
+.hero p { margin: 8px 0 16px; color: #A9B3D6; font-size: 1.02rem; max-width: 760px; }
+.pill { display: inline-block; padding: 6px 14px; margin: 0 8px 6px 0; border-radius: 999px; font-size: .8rem;
+        font-weight: 600; color: #DCD6FF; background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.12); }
+.section-title { font-size: 1.15rem; font-weight: 700; margin: 26px 0 12px; color: #F1F3FF; }
+.kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(165px, 1fr)); gap: 14px; }
+.kpi { padding: 18px 18px 16px; border-radius: 16px; background: linear-gradient(160deg, #151D3D, #10162F);
+       border: 1px solid #222C52; transition: transform .2s, border-color .2s; }
+.kpi:hover { transform: translateY(-3px); border-color: #8B5CF6; }
+.kpi-label { font-size: .72rem; text-transform: uppercase; letter-spacing: .09em; color: #8E99C4; font-weight: 600; }
+.kpi-value { font-size: 2rem; font-weight: 800; margin: 4px 0 10px; color: #fff; }
+.kpi-bar { height: 5px; border-radius: 9px; background: #1E2748; overflow: hidden; }
+.kpi-bar span { display: block; height: 100%; border-radius: 9px; background: linear-gradient(90deg,#8B5CF6,#22D3EE); }
+.kpi-help { font-size: .74rem; color: #7C87B2; margin-top: 8px; }
+.insight { padding: 16px 20px; border-radius: 14px; margin: 18px 0 4px; color: #D9DEF5; line-height: 1.55;
+           background: rgba(34,211,238,.08); border: 1px solid rgba(34,211,238,.25); }
+.cm-grid { display: grid; grid-template-columns: 110px 1fr 1fr; gap: 10px; align-items: stretch; }
+.cm-head { font-size: .75rem; color: #8E99C4; text-transform: uppercase; letter-spacing: .08em; display:flex;
+           align-items:center; justify-content:center; text-align:center; font-weight:600; }
+.cm-cell { padding: 22px 10px; border-radius: 14px; text-align: center; }
+.cm-cell b { display:block; font-size: 2rem; font-weight: 800; color:#fff; }
+.cm-cell small { color: #C9D0EE; font-size: .78rem; }
+.cm-good { background: rgba(52,211,153,.16); border: 1px solid rgba(52,211,153,.4); }
+.cm-bad { background: rgba(244,114,182,.14); border: 1px solid rgba(244,114,182,.4); }
+.cmp-table { width: 100%; border-collapse: separate; border-spacing: 0 8px; font-size: .92rem; }
+.cmp-table th { text-align: left; color: #8E99C4; font-size: .72rem; text-transform: uppercase; letter-spacing: .08em;
+                padding: 4px 14px; font-weight: 600; }
+.cmp-table td { padding: 14px; background: #111833; color: #DDE2F7; border-top: 1px solid #1F2850; border-bottom: 1px solid #1F2850; }
+.cmp-table td:first-child { border-left: 1px solid #1F2850; border-radius: 12px 0 0 12px; font-weight: 700; color:#fff; }
+.cmp-table td:last-child { border-right: 1px solid #1F2850; border-radius: 0 12px 12px 0; }
+.best { color: #67E8F9 !important; font-weight: 800; }
+.badge { font-size: .65rem; padding: 3px 8px; border-radius: 99px; margin-left: 8px; background: #8B5CF6; color: #fff; }
+.step { padding: 22px; border-radius: 16px; background: #111833; border: 1px solid #222C52; height: 100%; }
+.step .num { width: 34px; height: 34px; border-radius: 50%; display:flex; align-items:center; justify-content:center;
+             font-weight: 800; background: linear-gradient(135deg,#8B5CF6,#22D3EE); margin-bottom: 12px; color:#fff; }
+.step h4 { margin: 0 0 6px; color: #fff; } .step p { margin: 0; color: #8E99C4; font-size: .9rem; }
+button[data-baseweb="tab"] { font-weight: 600; font-size: .95rem; }
